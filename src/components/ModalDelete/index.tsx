@@ -57,6 +57,7 @@ const ModalDelete = ({
   };
 
   return (
+    <></> /*
     <Modal
       open={open}
       // onClose={setOpen(false)}
@@ -89,7 +90,7 @@ const ModalDelete = ({
           Salvar
         </button>
       </div>
-    </Modal>
+    </Modal>*/
   );
 };
 
