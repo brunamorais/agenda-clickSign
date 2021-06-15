@@ -1,0 +1,25 @@
+body {
+  background: var(--background);
+  font-family: "Roboto", sans-serif;
+}
+span {
+  font-size: 1rem;
+}
+p {
+  font-size: 0.875rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #f8f9fd;
+  --yellowish: #dbff90;
+  --salmon: #fa7268;
+  --light-pink: #fff3f2;
+  --pale-lilac: #e4e7f4;
+  --dark: #2a2d3b;
+  --blue: #c0c3d2;
+}

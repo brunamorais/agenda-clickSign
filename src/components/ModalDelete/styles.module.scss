@@ -1,0 +1,76 @@
+.buttonPlus {
+  display: flex;
+  align-items: center;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellowish);
+    border: solid 1px rgba(255, 255, 255, 0.16);
+    color: var(--salmon);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    font-style: normal;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    height: 2.5rem;
+
+    .icon {
+      padding-right: 0.5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.modalContent {
+  .title {
+    padding: 1rem;
+    color: var(--dark);
+  }
+  .formModal {
+    margin: 1.22rem 1.5rem;
+    color: var(--dark);
+    .nome,
+    .email {
+      padding-bottom: 1rem;
+    }
+    input[type="text"],
+    [type="email"] {
+      width: 384px;
+      height: 2rem;
+      border: 1px solid var(--blue);
+    }
+    input[type="tel"] {
+      width: 128px;
+      height: 2rem;
+      border: 1px solid var(--blue);
+    }
+  }
+  .btnModal {
+    padding: 1rem 1rem;
+    float: right;
+
+    .btnCancel {
+      width: 4.5rem;
+      height: 2rem;
+      border-radius: 1rem;
+      background-color: transparent;
+      border: none;
+      color: var(--salmon);
+    }
+    .btnSave {
+      width: 4.5rem;
+      height: 2rem;
+      border-radius: 1rem;
+      color: white;
+      background-color: var(--salmon);
+      border: solid 1px rgba(255, 255, 255, 0.16);
+    }
+    .btnSave:disabled,
+    .btnSave[disabled] {
+      opacity: 32%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  .input {
+    display: flex;
+    align-items: center;
+    background: var(--pale-lilac);
+    border: var(--pale-lilac);
+    border-radius: 4px;
+    padding-right: 0.5rem;
+    color: #9198af;
+
+    input {
+      background: var(--pale-lilac);
+      border: var(--pale-lilac);
+      height: 2rem;
+      padding: 7px 8px 6px;
+      border: none;
+      border-radius: 4px;
+
+      .icon {
+        font-size: 1.5rem;
+      }
+    }
+
+    input:focus {
+      outline: none;
+    }
+  }
+}
